@@ -1,0 +1,30 @@
+.li3{
+    color: green;
+}
+
+#para1{
+    font-size: 30px;
+    background-color: yellow;
+    border: red 2px ridge;
+    text-align: center;
+}
+
+#li-id{
+    color: red;
+}
+
+p{
+    font-size: large;
+}
+
+#p-pc:hover{
+    background-color: greenyellow;
+}
+
+#p-pe::first-line{
+    background-color: lightseagreen;
+}
+
+p > strong{
+    text-decoration: underline red 3px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        li {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS</h1>
+    <p>CSS can be written in 3 ways.</p>
+    <ul>
+        <li style="color: red;">Inline CSS</li>
+        <li>Internal CSS</li>
+        <li class="li3">External CSS</li>
+    </ul>
+
+    <p id="para1">We should use External CSS and not use Inline or Internal CSS cause its best practice.</p>
+
+    <hr>
+
+    <h1>CSS selectors</h1>
+    <p>CSS selectors are used to select the content you want to style. CSS selectors select HTML elements according to
+        its id, class, type, attribute etc. There are different types of CSS selectors but the main ones are.
+    <ul>
+        <li>Element/Type Selector - Selects the HTML element by name.</li>
+        <li>Class Selector (.) - Selects all elements that have the given "class" attribute.</li>
+        <li id="li-id">ID Selector (#) - Selects the "id" attribute of an HTML element</li>
+    </ul>
+    <p style="background-color: cadetblue; font-size: larger;">The difference between Class and Id is that - Class
+        selects all the elements and ID does not. For eg -
+        In the above list all the items are blue in color except the ID selector.
+        More about selectors here - <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#basic_selectors"
+            target="_blank">MDN</a></p>
+    </p>
+
+    <hr>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">
+        <h1>Pseudo-Classes</h1>
+    </a>
+    <p>A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+        For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+        Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but
+        also in relation to external factors. A single colon (:) is used for pseudo classes. Example hover over below
+        paragraph.
+        <br><br>
+    <p id="p-pc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sint illo facilis odit. Illum, fuga
+        perferendis
+        aliquam debitis, qui nulla excepturi asperiores provident molestias impedit sed ut odit delectus ea.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sint illo facilis odit. Illum, fuga perferendis
+        aliquam debitis, qui nulla excepturi asperiores provident molestias impedit sed ut odit delectus ea.</p>
+    </p>
+
+    <hr>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">
+        <h1>Pseudo-Elements</h1>
+    </a>
+    <p>A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected
+        element(s). For example, ::first-line can be used to change the font of the first line of a paragraph. A double
+        colon :: is used for pseudo elements. Example hover over below paragraph.
+        <br><br>
+    <p id="p-pe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sint illo facilis odit. Illum, fuga
+        perferendis
+        aliquam debitis, qui nulla excepturi asperiores provident molestias impedit sed ut odit delectus ea.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sint illo facilis odit. Illum, fuga perferendis
+        aliquam debitis, qui nulla excepturi asperiores provident molestias impedit sed ut odit delectus ea.</p
+        id="p-pe">
+    </p>
+
+    <hr>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity" target="_blank">
+        <h1>Specificity</h1>
+    </a>
+    <p>Specificity is the means by which browsers decide which CSS property values are the most relevant to an element
+        and, therefore, will be applied.If there are two or more conflicting CSS rules that point to the same element,
+        the browser follows some rules to determine which one is most specific and therefore wins out.
+        <p>The general hierarchy is - 
+            <strong>Inline Styles</strong> > <strong>ID</strong> > <strong>Class,attributes and pseudo-classes</strong> > 
+            <strong>Elements and pseudo-elements</strong>
+        </p>
+    </p>
+
+    <hr>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
