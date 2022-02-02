@@ -18,7 +18,7 @@ p{
 }
 
 #p-pc:hover{
-    background-color: greenyellow;
+    background: linear-gradient(red, yellow)
 }
 
 #p-pe::first-line{
@@ -28,3 +28,32 @@ p{
 p > strong{
     text-decoration: underline red 3px;
 }
+
+#para-sp1{
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#para-sp2{
+    border: red solid 5px;
+}
+
+p[rels='apple']{
+    background-color: red;
+}
+p[rels='mango']{
+    background-color: rgb(255, 153, 0);
+}
+
+ /*  */
+
+ #colr-txt-1{
+     color: red;
+ }
+ #colr-txt-2{
+     color: rgb(34, 46, 212);
+ }
+ #colr-txt-3{
+     color: rgba(255, 0, 0, 0.5);
+ }

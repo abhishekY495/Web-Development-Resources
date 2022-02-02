@@ -1,0 +1,11 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1632760555490-9cbcf9c55a26?&auto=format&fit=crop&w=1470&q=80');
+}
+
+
+/* You can also use your local folder for images */
+
+/* 
+body{
+    background-image: url("/CSS/Images/unsplash1.jpg");
+} */

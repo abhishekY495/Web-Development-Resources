@@ -1,0 +1,66 @@
+body{
+    background: rgb(95, 95, 95);
+}
+
+#para-1{
+    background-color: lightskyblue;
+}
+
+#div-para-2{
+    background-color: lightskyblue;
+}
+#para-2{
+    background-color: lime;
+}
+
+#back-img{
+    width: 1100px;
+    height: 500px;
+    background: url('/CSS/Images/unsplash2.jpg');
+    background-repeat: no-repeat;
+    background-color: yellow;
+    background-size: cover;
+    /* background-size: contain; */
+}
+
+#gradient1{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(red, blue);
+}
+#gradient2{
+    width: 700px;
+    height: 400px;
+    background: radial-gradient(red, blue);
+}
+#gradient3{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(red, blue, pink, green);
+}
+#gradient4{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(to right, red, blue);
+}
+#gradient5{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(to left, red, blue);
+}
+#gradient6{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(to top, red, blue);
+}
+#gradient7{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(to bottom right, red, blue);
+}
+#gradient8{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(red 60%, blue);
+}
+
