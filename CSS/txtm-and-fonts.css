@@ -1,0 +1,62 @@
+.h1-und{
+    text-decoration: underline;
+}
+
+.h1-ovr{
+    text-decoration: overline;
+}
+
+.h1-wavy{
+    text-decoration:underline wavy;
+}
+
+.h1-colr{
+    text-decoration:underline wavy red;
+}
+
+#capital-para{
+    text-transform: uppercase;
+}
+
+#capital-para2{
+    text-transform: capitalize;
+}
+
+#h1-center{
+    text-align: center;
+}
+
+#h2-left{
+    text-align: left;
+}
+
+#h2-right{
+    text-align: right;
+}
+
+#h1-shadow{
+    text-shadow: 2px 2px 4px red;
+    color: blue;
+}
+
+#h1-cool-shadow{
+    background-color: cornsilk;
+    color: #bc2e1e;
+    text-shadow:
+    0 1px 0px #378ab4,
+    1px 0 0px #5dabcd,
+    1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #378ab4,
+    3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+}
