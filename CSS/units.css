@@ -1,0 +1,49 @@
+strong{
+    text-decoration: 3px red underline;
+}
+
+#pixel-div{
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to right, red, blue);
+}
+
+#cm-div{
+    height: 5cm;
+    width: 5cm;
+    background: linear-gradient(to right, red, blue);
+}
+
+#percent-div{
+    height: 50px;
+    width: 50%;
+    background: linear-gradient(to right, red, blue);
+}
+
+#px-span{
+    font-size: 20px;
+    text-decoration: 2px red underline;
+}
+
+#em-span{
+    font-size: 2em;
+    text-decoration: 2px red underline;
+}
+
+#rem-span{
+    font-size: 2rem;
+    text-decoration: 2px red underline;
+}
+
+#em-list li{
+    font-size: 1.5em;
+}
+#rem-list li{
+    font-size: 1.5rem;
+}
+
+#viewport-div{
+    background: linear-gradient(to right, red, blue);
+    width: 50vw;
+    height: 20vh;
+}

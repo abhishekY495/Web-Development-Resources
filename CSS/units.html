@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="units.css">
+</head>
+
+<body>
+
+
+    <h2><strong>Pixel</strong> - Absolute unit.</h2>
+    <div id="pixel-div"></div>
+    <br>
+    <hr>
+
+    <h2><strong>cm</strong> - centimeters</h2>
+    <div id="cm-div"></div>
+    <br>
+    <hr>
+
+    <h2><strong>Percent</strong> - Relative to the parent element.</h2>
+    <div id="percent-div"></div>
+    <br>
+    <hr>
+
+    <h2><strong>em</strong> - Relative to the size of the parent element (2em means 2 times the size of the
+        default/current font)</h2>
+    <div>This is 20px - <span id="px-span">Hellow</span></div>
+    <div>This is 2em - <span id="em-span">Hellow</span></div>
+    <br>
+    <hr>
+
+    <h2><strong>rem</strong> - Relative to size of the root element (2rem means 2 times the size of the
+        root font)</h2>
+    <div>This is 20px - <span id="px-span">Hellow</span></div>
+    <div>This is 2em - <span id="rem-span">Hellow</span></div>
+    <br>
+    <hr>
+
+    <h2>At first you may not notice any difference in <strong>em</strong> and <strong>rem</strong> but when we nest
+        elements,
+        then we can see the difference. To know more click
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#:~:text=what%20you%20get.-,ems%20and%20rems,-em%20and%20rem"
+            target="_blank">here</a>
+        or check the example below.
+    </h2>
+
+    <hr>
+
+    <h2><strong>em</strong></h2>
+    <ul id="em-list">MY LIST
+        <li>one</li>
+        <li>two
+            <ul>
+                <li>two-a</li>
+                <li>two-b</li>
+                <li>two-c
+                    <ul>
+                        <li>two-c-1</li>
+                        <li>two-c-2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <br>
+    <hr>
+
+    <h2><strong>rem</strong></h2>
+    <ul id="rem-list">MY LIST
+        <li>one</li>
+        <li>two
+            <ul>
+                <li>two-a</li>
+                <li>two-b</li>
+                <li>two-c
+                    <ul>
+                        <li>two-c-1</li>
+                        <li>two-c-2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <hr>
+
+    <h2><strong>vw and vh</strong> - 1% of the viewport's width and height. Viewport is the browser window size. If the
+        viewport is 50cm wide, 1vw = 0.5cm.</h2>
+    <div id=viewport-div></div>
+    <br>
+    <hr>
+
+    <h2>These are some common units used but know more about units 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" target="_blank">
+            here
+        </a>
+    </h2>
+
+</body>
+
+</html>
