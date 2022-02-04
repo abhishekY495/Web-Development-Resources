@@ -60,3 +60,34 @@
     7px 8px 0px #378ab4,
     8px 7px 0px #5dabcd;
 }
+
+#title-font{
+    font-size: 2em;
+    font-weight: 500;
+    /* font-weight: bold; */
+}
+#para-font{
+    font-size: 1.5em;
+}
+#span-font{
+    font-style: oblique;
+    /* font-style: italic; */
+    text-decoration: underline red 1px;
+}
+
+#para-font-fam1{
+    font-family: monospace;
+    font-size: 1.5em;
+}
+#para-font-fam2{
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+#para-font-fam3{
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 1.5em;
+}
+#para-font-fam4{
+    font-family: 'Syne Tactile';
+    font-size: 1.5em;
+}
