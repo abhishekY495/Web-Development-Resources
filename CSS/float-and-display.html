@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="float-and-display.css">
+</head>
+
+<body>
+
+    <h1>Display</h1>
+    <p>The display property is the most important CSS property for controlling layout.The display property specifies
+        if/how an element is displayed. Every HTML element has a default display value depending on what type of
+        element it is. The default display value for most elements is <span>block</span> or <span>inline</span>.
+    </p>
+    <hr>
+
+    <h3>Block-level Elements</h3>
+    <p>A block-level element always starts on a new line and takes up the full width available (stretches out to
+        left and right as far as it can). Examples of block-level elements include <span>div</span>, <span>h1-h6</span>,
+        <span>p</span>. For eg -
+    </p>
+
+    <div class="dis-div">Hello World</div>
+    <div class="dis-div">Hello World</div>
+
+    <p>As you can see above 2 div's take the all the space available. Now if we want to display both the div's on the
+        same line we wil use display: inline. Example below.
+    </p>
+
+    <div class="inl-div">Hello World</div>
+    <div class="inl-div">Hello World</div>
+
+    <hr>
+
+    <h3>Inline Element</h3>
+    <p>An inline element does not start on a new line and only takes up as much width as necessary. Inline elements
+        include
+        <span>image</span>, <span>span</span>, <span>a</span>. Check out below example. All 3 images are inline.
+    </p>
+
+    <img class="dis-img" src="/CSS/Images/dogs/1.jpg" alt="picture of a dog">
+    <img class="dis-img" src="/CSS/Images/dogs/2.jpg" alt="picture of a dog">
+    <img class="dis-img" src="/CSS/Images/dogs/3.jpg" alt="picture of a dog">
+
+    <p>Now to display them on each line. we use display: block</p>
+
+    <img class="block-img" src="/CSS/Images/dogs/1.jpg" alt="picture of a dog">
+    <img class="block-img" src="/CSS/Images/dogs/2.jpg" alt="picture of a dog">
+    <img class="block-img" src="/CSS/Images/dogs/3.jpg" alt="picture of a dog">
+
+    <hr>
+
+    <h3>Display: none</h3>
+    <p>Hiding an element can be done by setting the display property to none. The element will be hidden, and the page
+        will be displayed as if the element is not there. <br>
+        <span>visibility:hidden</span> also hides an element.
+        However, the element will still take up the same space as before. The element will be hidden, but still affect
+        the layout.
+    </p>
+
+    <br>
+    <img class="hide-img" src="/CSS/Images/unsplash1.jpg" alt="">
+    <img class="hide-img-visi" src="/CSS/Images/unsplash2.jpg" alt="">
+    <img class="hide-img" src="/CSS/Images/unsplash1.jpg" alt="">
+
+    <hr>
+
+    <h1>Float</h1>
+    <p>The float CSS property places an element on the left or right side of its container, allowing text and
+        elements to wrap around it. For eg -
+    </p>
+
+    <div><img class="flo-dog1" src="/CSS/Images/dogs/2.jpg" alt="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe offici
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        <img class="flo-dog2" src="/CSS/Images/dogs/1.jpg" alt="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione
+        voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas
+        ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione
+        voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ipsum, hic id voluptas ratione
+        voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima utsectetur adipisicing elit. Quas ipsum, hic id voluptas ratione voluptate
+        consequuntur saepe officia ea sequi, reprehenderit voluptates voluptatem facilis ducimus nostrum excepturi
+        mollitia minima ut?
+    </div>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

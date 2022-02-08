@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+}
+
+span{
+    text-decoration: blue 2px underline;
+    font-weight: bold;
+}
+
+h1{
+    text-decoration: underline 5px red;
+}
+
+.dis-div{
+    font-weight: bold;
+    border: 1px red solid;
+    background: lightskyblue;
+}
+
+.inl-div{
+    font-weight: bold;
+    border: 1px red solid;
+    padding: 0px 15px 0px 15px;
+
+    background: lightskyblue;
+    display: inline;
+}
+
+.dis-img{
+    width: 200px;
+    margin: 0px 40px 0px 40px;
+}
+
+.block-img{
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.hide-img{
+    width: 300px;
+    padding-right: 20px;
+    display: none;
+}
+
+.hide-img-visi{
+    width: 300px;
+    padding-right: 20px;
+    visibility: hidden;
+}
+
+
+div{
+    text-align: justify;
+}
+
+
+.flo-dog1{
+    width: 250px;
+    margin: 20px;
+    float: left;
+}
+.flo-dog2{
+    width: 250px;
+    margin: 20px;
+    float: right;
+}
