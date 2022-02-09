@@ -62,9 +62,49 @@ body{
 .insta-container-block{
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .insta-pic{
     width: 21%;
-    margin: 13px;
+    margin: 1%;
+}
+
+/*  */
+/*  */
+/*  */
+
+
+.nav-container{
+    background: lightgreen;
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+.nav-container nav{
+    border: 1px red solid;
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    background: linear-gradient(to top, pink, lightblue);
+    color: black;
+
+    /* flex-basis: 10px; */
+}
+/*  */
+.nav-items{
+    flex-grow: 1;
+    /* flex-shrink: 0; */
+    flex-basis: 10px;
+}
+
+.about-us{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 10px;
+}
+
+.hire{
+    flex: 3 1 10px;
 }
