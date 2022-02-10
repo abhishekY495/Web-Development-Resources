@@ -66,22 +66,3 @@ body{
     grid-column: span 2;
 }
 */
-
-/*  */
-/*  */
-
-
-.images-container img{
-    width: 80%;
-    padding: 3%;
-    border: 1px solid black;
-}
-
-
-.images-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    gap: 2em;
-}
