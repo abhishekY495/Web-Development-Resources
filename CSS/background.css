@@ -16,7 +16,7 @@ body{
 #back-img{
     width: 1100px;
     height: 500px;
-    background: url('/CSS/Images/unsplash2.jpg');
+    background: url('Images/unsplash2.jpg');
     background-repeat: no-repeat;
     background-color: yellow;
     background-size: cover;
