@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.parent{
+    position: relative;
+    height: 200vh;
+}
+
+.child-1{
+    position: relative;
+    left: 10px;
+}
+
+.child-2{
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.child-3{
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+
+.child-4{
+    width: 200px;
+
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    font-size: xx-large;
+}
+
+.parent {
+    padding: 5px;
+    background-color: #00AAFF;
+  }
+  
+  .child {
+    padding: 5px;
+  }
+  
+  .child-1 {
+    background-color: rgb(116, 255, 116);
+  }
+  
+  .child-2 {
+    background-color: rgb(248, 117, 117);
+  }
+  
+  .child-3 {
+    background-color: rgb(255, 116, 232);
+  }
+
+  .child-4 {
+    background-color: red;
+  }

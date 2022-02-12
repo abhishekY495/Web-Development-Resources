@@ -1,0 +1,150 @@
+body{
+    margin: 50px;
+    font-family: sans-serif;
+}
+
+.box-1{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+
+    transition: 500ms;
+    transition-property: background-color, transform;
+}
+
+.box-1:hover{
+    background-color: orange;
+}
+
+div span{
+    font-weight: bold;
+}
+.box{
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.box-container{
+    background-color: pink;
+    padding: 10px;
+}
+.box-container:hover .box{
+    width: 80%;
+}
+
+.box-2{
+    transition: ease 2s;
+}
+
+.box-3{
+    transition: ease-in 2s;
+}
+
+.box-4{
+    transition: ease-out 2s;
+}
+
+.box-5{
+    transition: ease-in-out 2s;
+}
+
+.box-6{
+    transition: cubic-bezier(0.96,-0.27, 0.8, 2.04) 2s;
+}
+
+.box-container:hover .box-2{
+    background-color: red;
+}
+
+.box-container:hover .box-4{
+    border-radius: 50%;
+    background-color: red;
+}
+
+.submit{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    background-color: skyblue;
+
+    transition: background-color 250ms, width 1s;
+    -webkit-transition: background-color 250ms, width 1s;
+    -moz-transition: background-color 250ms, width 1s;
+}
+
+.submit:hover{
+    background-color: rgb(0, 180, 252);
+    width: 300px;
+}
+
+
+    
+.image-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.image{
+    transition: transform 300ms ;
+    -webkit-transition: transform 300ms;
+    -moz-transition: transform 300ms;
+}
+
+.water-image{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://source.unsplash.com/random/400x400?water");
+}
+.jungle-image{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://source.unsplash.com/random/400x400?jungle");
+}
+.moon-image{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://source.unsplash.com/random/400x400?moon");
+}
+
+.water-image:hover{
+    transform: scale(1.1);
+}
+.moon-image:hover{
+    transform: scale(1.1);
+}
+.jungle-image:hover{
+    transform: scale(1.1);
+}
+
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    background-color: skyblue;
+
+    transition: background-color, 200ms;
+}
+.reset:hover{
+    background-color: rgb(0, 255, 170);
+    transform: skewX(20deg);
+}
+.cart:hover{
+    background-color: chartreuse;
+    transform: skewY(20deg);
+}
+.checkout:hover{
+    background-color: rgb(255, 66, 98);
+    transform: matrix(1, 0.20, 0.20, 1, 100, 50);
+}
