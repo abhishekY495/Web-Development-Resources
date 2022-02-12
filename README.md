@@ -1,7 +1,5 @@
 # Web-Development
-This repo contains resources that i will use to be a Web Developer.
-
-Will try to keep the resources upto date.
+Resources to be a Web Developer.
 
 #
 
