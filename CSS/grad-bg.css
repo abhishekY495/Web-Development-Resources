@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+
+    background-image: linear-gradient(60deg, #ff3535, #8a8aff, #88ff88, #ff91a3, #ffff79);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    animation: grad-animation 10s ease-in-out infinite alternate;
+    -webkit-animation: grad-animation 10s ease-in-out infinite alternate;
+    -moz-animation: grad-animation 10s ease-in-out infinite alternate;
+    -o-animation: grad-animation 10s ease-in-out infinite alternate;
+    -ms-animation: grad-animation 10s ease-in-out infinite alternate;
+}
+
+@keyframes grad-animation{
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
