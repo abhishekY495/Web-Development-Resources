@@ -1,0 +1,45 @@
+@import "./_header";
+@import "./variables";
+
+
+.main-div {
+    background-color: aquamarine;
+
+    button {
+        background-color: $button-bg-color;
+    }
+    p {
+        line-height: 2em;
+        &:hover{
+            background-color: rgb(221, 139, 139);
+        }
+    }
+}
+
+@mixin flexcenter($direction, $bg-color) {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: .5em;
+    padding: .5em;
+    align-items: center;
+    background: $bg-color;
+    flex-direction: $direction;
+}
+
+.div-2 {
+    @include flexcenter(row, linear-gradient(pink, skyblue));
+}
+.div-3 {
+    @include flexcenter(column, linear-gradient(orange, green));
+}
+
+.div-4 {
+    @extend .div-2;
+    justify-content: start;
+}
+
+.div-5 {
+    @extend .div-2;
+    width: 100% - 50%;
+}

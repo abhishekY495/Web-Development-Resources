@@ -1,0 +1,13 @@
+@import "./variables";
+
+header {
+    background-color: rgb(22, 51, 63);
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    color: $textcolor;
+    
+    button{
+        background-color: $button-bg-color;
+    }
+}

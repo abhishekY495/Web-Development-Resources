@@ -1,0 +1,84 @@
+header {
+  background-color: #16333f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+  color: white;
+}
+
+header button {
+  background-color: #df5454;
+}
+
+.main-div {
+  background-color: aquamarine;
+}
+
+.main-div button {
+  background-color: #df5454;
+}
+
+.main-div p {
+  line-height: 2em;
+}
+
+.main-div p:hover {
+  background-color: #dd8b8b;
+}
+
+.div-2, .div-4, .div-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+  margin: .5em;
+  padding: .5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(pink), to(skyblue));
+  background: linear-gradient(pink, skyblue);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.div-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+  margin: .5em;
+  padding: .5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(green));
+  background: linear-gradient(orange, green);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-4 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.div-5 {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
