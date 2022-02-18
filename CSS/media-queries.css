@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: red;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.main-info,.other-info{
+    background-color: lightgray;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 0;
+}
+
+.points {
+    background-color: aquamarine;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .main-info,.other-info{
+        background-color: aquamarine;
+        /* line-height: 1.8em; */
+        margin: 10px;
+    }
+    .points {
+        background-color: lightgray;
+        /* line-height: 1.8em; */
+        margin: 10px;
+    }
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+
+}
+
+@media (orientation: landscape){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    .other-info{
+        grid-column: span 2;
+    }
+}
