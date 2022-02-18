@@ -51,14 +51,16 @@
 - Cloudfare Pages - [Host and deploy your website with GitHub and Cloudflare Pages - Coder Coder](https://www.youtube.com/watch?v=MTc2CTYoszY)
 - AWS S3 Bucket - [Build a Portfolio Website & Deploy - Denis Ivy](https://youtu.be/r_hYR53r61M?t=6922)
 
+#
 
 > ### HTML and CSS Crash courses by [Gary Simons](https://twitter.com/designcoursecom) aka [DesignCourse](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow)
 > - [Learn HTML & CSS in 2022 | Crash Course](https://www.youtube.com/watch?v=gXLjWRteuWI)
 > - [HTML and CSS Tutorial for 2021 - COMPLETE Crash Course!](https://www.youtube.com/watch?v=D-h8L5hgW-w)
 > - [The 2020 HTML & CSS Crash Course - From Mockup to Product](https://www.youtube.com/watch?v=Ly6pm8UxZU4)
 >
-> Try to create these websites on your own and if you can't then follow the videos.
+> Try to create these websites on your own, if you can't then follow the videos.
 
+#
 
 ## Sass
 - [Learn Sass In 20 Minutes | Sass Crash Course - Dev Ed](https://www.youtube.com/watch?v=Zz6eOVaaelI)
