@@ -3,6 +3,8 @@
 ## Roadmap
 - [Web Development In 2022 - A Practical Guide - Traversy Media](https://www.youtube.com/watch?v=EqzUcMzfV1w)
 
+## Github
+- [Complete Git and GitHub Tutorial - Kunal Kushwaha](https://www.youtube.com/watch?v=apGV9Kg7ics)
 
 ## HTML
 - [HTML in 1 hour 🌎 - Bro Code](https://www.youtube.com/watch?v=HD13eq_Pmp8)
@@ -40,10 +42,6 @@
     - [CSS Media Queries Tutorial for Responsive Design - Adrian Twarog](https://www.youtube.com/watch?v=j1AhSWFcZpg)
 
 
-## Github
-- [Complete Git and GitHub Tutorial - Kunal Kushwaha](https://www.youtube.com/watch?v=apGV9Kg7ics)
-
-
 ## Deploying your website
 - Netlify - [Host your site for free with version control using Netlify - Kevin Powell](https://www.youtube.com/watch?v=i9qCmQ2EeUA)
 - Github Pages - [Getting Started with GitHub Pages - The Net Ninja](https://www.youtube.com/watch?v=QyFcl_Fba-k)
@@ -53,12 +51,13 @@
 
 #
 
-> ### HTML and CSS Crash courses by [Gary Simons](https://twitter.com/designcoursecom) aka [DesignCourse](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow)
+> ### Try to create below websites on your own, if you can't then follow the videos.
+>
+> HTML and CSS Crash courses by [Gary Simons](https://twitter.com/designcoursecom) aka [DesignCourse](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow)
 > - [Learn HTML & CSS in 2022 | Crash Course](https://www.youtube.com/watch?v=gXLjWRteuWI)
 > - [HTML and CSS Tutorial for 2021 - COMPLETE Crash Course!](https://www.youtube.com/watch?v=D-h8L5hgW-w)
 > - [The 2020 HTML & CSS Crash Course - From Mockup to Product](https://www.youtube.com/watch?v=Ly6pm8UxZU4)
 >
-> Try to create these websites on your own, if you can't then follow the videos.
 
 #
 
