@@ -64,4 +64,13 @@
 ## Sass
 - [Learn Sass In 20 Minutes | Sass Crash Course - Dev Ed](https://www.youtube.com/watch?v=Zz6eOVaaelI)
 
-## zz
+
+## CSS Frameworks
+- Bootstrap - [Bootstrap 5 Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR)
+- Tailwind CSS - []()
+
+
+## npm
+- [NPM Crash Course - Traversy Media](https://www.youtube.com/watch?v=jHDhaSSKmB0)
+
+
