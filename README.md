@@ -67,8 +67,8 @@
 
 ## CSS Frameworks
 - Bootstrap - [Bootstrap 5 Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR)
-- Tailwind CSS - []()
-
+- Tailwind CSS - [Tailwind CSS Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
+- Tailwind CSS Installation - [Install Tailwind CSS v3 - CDN vs CLI vs PostCSS - Thirus](https://www.youtube.com/watch?v=h9Zun41-Ozc)
 
 ## npm
 - [NPM Crash Course - Traversy Media](https://www.youtube.com/watch?v=jHDhaSSKmB0)
