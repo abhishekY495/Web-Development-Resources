@@ -2,18 +2,20 @@
 
 ## Roadmap
 - [Web Development In 2022 - A Practical Guide - Traversy Media](https://www.youtube.com/watch?v=EqzUcMzfV1w)
+- [COMPLETE Full Stack Web Developer Roadmap 2022!🚀 - codedamn](https://www.youtube.com/watch?v=SgVXmtMUjbI)
+- https://roadmap.sh/frontend
 
 ## Github
 - [Complete Git and GitHub Tutorial - Kunal Kushwaha](https://www.youtube.com/watch?v=apGV9Kg7ics)
 
 ## HTML
 - [HTML in 1 hour 🌎 - Bro Code](https://www.youtube.com/watch?v=HD13eq_Pmp8)
-- W3Schools - https://www.w3schools.com/html/
+- https://www.w3schools.com/html/
 
 
 ## CSS
 - [CSS Tutorial - Zero to Hero - freeCodeCamp.org](https://www.youtube.com/watch?v=1Rs2ND1ryYc)
-- css-tricks - https://css-tricks.com/almanac/
+- https://css-tricks.com/almanac/
 - CSS Box Model
     - [Learn CSS Box Model In 8 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=rIO5326FgPE)
     - [CSS Box Model - an illustrated analogy by Annie](https://twitter.com/anniebombanie_/status/1485600904720101380)
@@ -70,7 +72,21 @@
 - Tailwind CSS - [Tailwind CSS Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
 - Tailwind CSS Installation - [Install Tailwind CSS v3 - CDN vs CLI vs PostCSS - Thirus](https://www.youtube.com/watch?v=h9Zun41-Ozc)
 
+
 ## npm
 - [NPM Crash Course - Traversy Media](https://www.youtube.com/watch?v=jHDhaSSKmB0)
 
 
+## JavaScript
+- [Vanilla JavaScript Playlist - Traversy Media](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX)
+- [Modern JavaScript Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+- [JavaScript for Beginners - Microsoft Developer](https://www.youtube.com/playlist?list=PLlrxD0HtieHhW0NCG7M536uHGOtJ95Ut2)
+- [JavaScript Programming - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=jS4aFq5-91M)
+- [Javascript Beginning To Mastery Complete Course 2021 Playlist - Harshit vashisth](https://www.youtube.com/playlist?list=PLwgFb6VsUj_n15Cg_y2ULKfsOR1XiQqPx)
+
+
+## Regex
+- [Learn Regular Expressions In 20 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=rhzKDrUiJVk)
+
+
+## Javascript Projects
