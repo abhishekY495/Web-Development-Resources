@@ -89,4 +89,3 @@
 - [Learn Regular Expressions In 20 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=rhzKDrUiJVk)
 
 
-## Javascript Projects
