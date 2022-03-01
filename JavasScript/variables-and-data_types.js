@@ -107,3 +107,4 @@ console.log(typeof a);
 const b = toString(a);
 console.log(typeof b);
 
+console.log('');
