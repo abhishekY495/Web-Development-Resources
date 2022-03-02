@@ -28,7 +28,7 @@
     - [A Complete Guide to Flexbox - css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - CSS Grid
     - [Learn CSS Grid the easy way - Kevin Powell](https://www.youtube.com/watch?v=rg7Fvvl3taU)
-    - [CSS Grid Layout Crash Course - Traversy Media](https://www.youtube.com/watch?v=jV8B24rSN5o)
+    - [CSS Grid Crash Course & Project - Traversy Media](https://www.youtube.com/watch?v=0xMQfnTU6oo)
     - [Learn CSS Grid in 20 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=9zBsdzdE4sM)
     - [A Complete Guide to Grid - css-tricks.com](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - Positions
