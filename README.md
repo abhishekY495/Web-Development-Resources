@@ -83,6 +83,8 @@
 - [JavaScript for Beginners - Microsoft Developer](https://www.youtube.com/playlist?list=PLlrxD0HtieHhW0NCG7M536uHGOtJ95Ut2)
 - [JavaScript Programming - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=jS4aFq5-91M)
 - [Javascript Beginning To Mastery Complete Course 2021 Playlist - Harshit vashisth](https://www.youtube.com/playlist?list=PLwgFb6VsUj_n15Cg_y2ULKfsOR1XiQqPx)
+- https://wesbos.com/javascript
+- https://javascript.info
 
 
 ## Regex
