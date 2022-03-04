@@ -8,10 +8,8 @@ and to wait until the user dismisses the dialog.
 */
 
 
-// let sign = prompt("Are you feeling Lucky ?");
+let yourName = prompt("Enter Your Name");
 
-// if (sign.toLowerCase() == "yes") {
-//     alert("Good");
-// }
+alert(`Hello ${yourName}`)
 
 // alert('DANGER DANGER DANGER')
