@@ -7,3 +7,7 @@ a {
     color: white;
     font-size: larger;
 }
+
+strong {
+    color: aqua;
+}
