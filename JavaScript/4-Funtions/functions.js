@@ -65,15 +65,3 @@ findNum([1,4,35,40,98,55,11], 13)
 
 console.log('');
 
-
-
-
-// Function Expression
-const greet2 = function() {
-    console.log('Hello World');
-}
-greet2()
-
-
-console.log('');
-// Arrow Functions
