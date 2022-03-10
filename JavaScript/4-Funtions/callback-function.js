@@ -4,9 +4,11 @@ const greet8 = (user='User') => {
 
 const userPrompt = (callback) => {
     // let name = prompt('Enter your name');
-    callback(name);
-    
+    // callback(name);
+    callback();
 }
 
 userPrompt(greet8)
 
+
+console.log('');
