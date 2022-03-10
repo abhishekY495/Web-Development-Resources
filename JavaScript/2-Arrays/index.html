@@ -25,11 +25,37 @@
     <p>spread opertor (...)</p>
     <p>looping</p>
     <p>array destructuring</p>
-    
+
     <hr>
-    
+
     <p>
-    <u><strong>Destructing</strong></u> makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+        <u><strong>Destructing</strong></u> makes it possible to unpack values from arrays, or properties from objects,
+        into distinct variables.
+    </p>
+
+    <hr>
+    <p><u><strong>Important Array methods</strong></u></p>
+    <p><strong>forEach</strong> - The forEach() executes a provided function once for each array element.</p>
+    <p><strong>map</strong> - The map() method creates a new array populated with the results of calling a provided
+        function on every element in the calling array.
+    </p>
+    <hr>
+    <p style="color:darksalmon; border: 2px yellow solid; padding: 8px;">The main difference between map and forEach is
+        that the map method returns a new array by applying the callback function on each element of an array, while the
+        forEach method doesnt return anything.
+        <br>The forEach() method doesnt actually return anything (undefined). It simply calls a provided function on
+        each element in your array. Meanwhile, the map() method will also call a provided function on every element
+        in the array. The difference is that map() utilizes return values and actually returns a new Array of the
+        same size.
+    </p>
+    <hr>
+    <p><strong>filter</strong> - The filter() method creates a new array with all elements that pass the test
+        implemented by the provided function.
+    </p>
+    <p><strong>reduce</strong> - The reduce() method executes a user-supplied "reducer" callback function on each
+        element of the array, in order, passing in the return value from the calculation on the preceding element. The
+        final result of running the reducer across all elements of the array is a single value.<br>In short - The reduce()
+        method takes all the elements of an array and comes up with a single output value.
     </p>
 
 
@@ -37,6 +63,8 @@
     <script src="arrays.js"></script>
     <script src="looping-arrays.js"></script>
     <script src="array-destructuring.js"></script>
+    <script src="forEach.js"></script>
+    <script src="map-filter-reduce.js"></script>
 
 
 
