@@ -168,3 +168,37 @@ const output = users.reduce((lessThan23, user) => {
     return lessThan23;
 }, [])
 console.log(output);
+
+
+
+console.log('');
+
+
+
+const data21 = [5,6,9,4,2]
+const data21Sum = data21.reduce( (sum, elem) => {
+
+    return sum+elem;
+}, 0)
+
+console.log(data21Sum);
+
+
+console.log('');
+const cartItems = [
+    {productID:1, productName:'Mobile', productPrice:30000},
+    {productID:2, productName:'Watch', productPrice:850},
+    {productID:3, productName:'HeadPhone', productPrice:5999},
+    {productID:4, productName:'Mouse', productPrice:2599}
+]
+
+const cartTotalAmt = cartItems.reduce( (sum, items)=> {
+    return sum+items.productPrice;
+},0)
+console.log(cartTotalAmt);
+
+
+
+
+
+console.log('');
