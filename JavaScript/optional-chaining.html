@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional chaining</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Optional chaining (?.)</h1>
+    <hr>
+
+    <p>
+        The optional chaining operator enables you to read the value of a property located deep within a chain of
+        connected objects without having to check that each reference in the chain is valid.
+    </p>
+
+    <p>
+        The (?.) operator is like the (.) chaining operator, except that instead of causing an error if a reference is
+        nullish i.e null or undefined, the expression short-circuits with a return value of <strong>undefined</strong>.
+        When used with function calls, it returns undefined if the given function does not exist.
+    </p>
+
+    <hr>
+    
+    <p>
+        In short optional chaining is a safe and concise way to perform access checks for nested object properties.
+        In many practical cases we'd prefer to get undefined instead of an error.
+    </p>
+
+
+
+
+    <script src="opt-chain.js"></script>
+
+
+</body>
+
+</html>
