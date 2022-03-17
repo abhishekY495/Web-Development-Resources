@@ -60,6 +60,7 @@ function hello(x){
     };
 };
 hello()();
+hello('asd')();
 
 
 console.log('');
@@ -80,3 +81,27 @@ const cube = myfunc1(3);
 cube(3);
 
 myfunc1(2)(4); // 4*4
+
+
+
+// 
+console.log('');
+
+
+
+
+function call(){
+    let x=0;
+    return function(){
+        if (x<1){
+            console.log('Hello 👋');
+            x++;
+        } else {
+            console.log('You already said Hello 👋');
+        }
+    }
+}
+
+const helloUser = call();
+helloUser();
+helloUser();
