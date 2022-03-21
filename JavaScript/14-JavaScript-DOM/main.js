@@ -312,17 +312,17 @@ lists2.append(newLi);
 
 
 // 
-const linktoEvents = document.createElement('a');
-linktoEvents.href = 'events.html';
+// const linktoEvents = document.createElement('a');
+// linktoEvents.href = 'events.html';
 
-const h2Events = document.createElement('h2');
-h2Events.textContent = 'Events'
+// const h2Events = document.createElement('h2');
+// h2Events.textContent = 'Events'
 
-linktoEvents.append(h2Events);
+// linktoEvents.append(h2Events);
 
-document.body.append(linktoEvents);
+// document.body.append(linktoEvents);
 
-document.body.append(document.createElement('br'));
-document.body.append(document.createElement('br'));
-document.body.append(document.createElement('br'));
+// document.body.append(document.createElement('br'));
+// document.body.append(document.createElement('br'));
+// document.body.append(document.createElement('br'));
 // 
