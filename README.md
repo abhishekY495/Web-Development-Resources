@@ -5,8 +5,10 @@
 - [COMPLETE Full Stack Web Developer Roadmap 2022!🚀 - codedamn](https://www.youtube.com/watch?v=SgVXmtMUjbI)
 - https://roadmap.sh/frontend
 
+
 ## Github
 - [Complete Git and GitHub Tutorial - Kunal Kushwaha](https://www.youtube.com/watch?v=apGV9Kg7ics)
+
 
 ## HTML
 - [HTML in 1 hour 🌎 - Bro Code](https://www.youtube.com/watch?v=HD13eq_Pmp8)
@@ -16,32 +18,59 @@
 ## CSS
 - [CSS Tutorial - Zero to Hero - freeCodeCamp.org](https://www.youtube.com/watch?v=1Rs2ND1ryYc)
 - https://css-tricks.com/almanac/
-- CSS Box Model
+    <details>
+    <summary>CSS Box Model</summary>
+
     - [Learn CSS Box Model In 8 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=rIO5326FgPE)
     - [CSS Box Model - an illustrated analogy by Annie](https://twitter.com/anniebombanie_/status/1485600904720101380)
-- CSS Units
+    </details>
+    
+    <details>
+    <summary>CSS Units</summary>
+
     - [Learn CSS Units In 8 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=-GR52czEd-0)
-- Flexbox
+    </details>
+
+    <details>
+    <summary>Flexbox</summary>
+
     - [Flexbox Crash Course 2022 - Traversy Media](https://www.youtube.com/watch?v=3YW65K6LcIA)
     - [Learn flexbox the easy way - Kevin Powell](https://www.youtube.com/watch?v=u044iM9xsWU)
     - [Learn Flexbox in 15 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=fYq5PXgSsbE)
     - [A Complete Guide to Flexbox - css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- CSS Grid
+    </details>
+
+    <details>
+    <summary>CSS Grid</summary>
+
     - [Learn CSS Grid the easy way - Kevin Powell](https://www.youtube.com/watch?v=rg7Fvvl3taU)
     - [CSS Grid Crash Course & Project - Traversy Media](https://www.youtube.com/watch?v=0xMQfnTU6oo)
     - [Learn CSS Grid in 20 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=9zBsdzdE4sM)
     - [A Complete Guide to Grid - css-tricks.com](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- Positions
+    </details>
+
+    <details>
+    <summary>Positions</summary>
+
     - [Learn CSS Position In 9 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=jx5jmI0UlXU)
-- CSS Animation and Transitions
+    </details>
+
+    <details>
+    <summary>CSS Animation and Transitions</summary>
+
     - [Learn CSS Animation In 15 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=YszONjKpgg4)
     - [CSS3 Animation & Transitions Crash Course - Traversy Media](https://www.youtube.com/watch?v=zHUpx90NerM)
     - [Animating with CSS Transitions - Kewin Powell](https://www.youtube.com/watch?v=Nloq6uzF8RQ)
     - [CSS animation - css-tricks.com](https://css-tricks.com/almanac/properties/a/animation/)
     - [CSS transition - css-tricks.com](https://css-tricks.com/almanac/properties/t/transition/)
-- Media Queries
+    </details>
+
+    <details>
+    <summary>Media Queries</summary>
+
     - [Learn CSS Media Query In 7 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=yU7jJ3NbPdA)
     - [CSS Media Queries Tutorial for Responsive Design - Adrian Twarog](https://www.youtube.com/watch?v=j1AhSWFcZpg)
+    </details>
 
 
 ## Deploying your website
@@ -80,7 +109,6 @@
 ## JavaScript
 - [Vanilla JavaScript Playlist - Traversy Media](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX)
 - [Modern JavaScript Tutorial - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
-- [JavaScript for Beginners - Microsoft Developer](https://www.youtube.com/playlist?list=PLlrxD0HtieHhW0NCG7M536uHGOtJ95Ut2)
 - [JavaScript Programming - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=jS4aFq5-91M)
 - [Namaste 🙏 JavaScript - Akshay Saini](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
 - [Javascript Beginning To Mastery Complete Course 2021 Playlist - Harshit vashisth](https://www.youtube.com/playlist?list=PLwgFb6VsUj_n15Cg_y2ULKfsOR1XiQqPx)
@@ -92,3 +120,4 @@
 - [Learn Regular Expressions In 20 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=rhzKDrUiJVk)
 
 
+## 
