@@ -6,7 +6,7 @@ const randomColor1 = setInterval( ()=> {
         const blue = Math.floor(Math.random()*256);
         document.body.style.backgroundColor = `rgb(${red},${green},${blue})`;
         btn.innerText = `rgb (${red}, ${green}, ${blue})`;
-}, 1500);
+}, 1000);
 
 
 btn.addEventListener('click', ()=> {
