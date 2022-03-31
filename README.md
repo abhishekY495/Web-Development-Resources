@@ -120,4 +120,30 @@
 - [Learn Regular Expressions In 20 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=rhzKDrUiJVk)
 
 
-## 
+## Web basics
+- [Web Basics Crash Course - Codedamn](https://www.youtube.com/watch?v=iD2fgC74ZtA)
+
+
+## Asynchronous JavaScript
+- [Async JS Crash Course - Callbacks, Promises, Async Await - Traversy Media](https://www.youtube.com/watch?v=PoRJizFvM7s)
+- [Asynchronous JavaScript (2020 version) - The Net Ninja](https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu)
+
+
+## AJAX and Fetch API
+- [AJAX Crash Course (Vanilla JavaScript) - Traversy Media](https://www.youtube.com/watch?v=82hnvUYY6QA)
+- [Fetch API Introduction - Traversy Media](https://www.youtube.com/watch?v=Oive66jrwBs)
+
+
+
+#
+
+> ### Try the JavaScript30 course challenge by @wesbos - https://javascript30.com/
+>
+>Its a free course that does 30 vanilla JavaScript projects in 30 days.
+>
+
+#
+
+
+## Chrome DevTools
+- [Chrome DevTools Complete Course - Codedamn](https://www.youtube.com/watch?v=Y3u2groOG-A)
